@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MyInfo from './Components/MyInfo'
+
+import App from './App';
 
 
 
 
 
 ReactDOM.render(
-  <MyInfo/>,
+  <App />,
   document.getElementById('root')
 );
 
